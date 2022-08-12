@@ -1,6 +1,8 @@
 # QuickHerokuDeployer
 A script which allows for quick automatic deployment of big projects by avoiding reinstallation of build packs and packages and simply just updating the changed files
 
+# Note
+This is a temporal solution. it is not intended to be permanent as heroku forces web dynos to sleep minimum 6 hours a day. Simply detach the script when done
 
 # Installation
 1) Paste either python(make sure to include flask and requests in requirements.txt) or nodejs file onto the main directory of the big project
